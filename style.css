@@ -1,0 +1,337 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.second_block, .third_block,.four_block, .search {
+	display: flex;
+}
+
+#cointainer, #cointainer2{
+	margin-left: 70px;
+	margin-top: 20px;
+}
+input{
+	width: 200px;
+	height: 29px;
+	margin-top: 20px;
+	border-radius: 5%;
+}
+.bttn{
+	background-color: #B22222;
+	width: 30px;
+	height: 35px;
+	border-radius: 10%;
+	margin-left: -5px;
+	margin-top: 19px;
+}
+
+
+.like{
+	margin-left: 150px;
+	margin-top:27px;
+}
+
+.text{
+	margin-left: 10px;
+	margin-top:27px;
+}
+.four_block{
+	cursor: pointer;
+}
+
+.image2{
+	margin-left: 50px;
+	margin-top:27px;
+}
+.text1{
+	margin-left: 10px;
+	margin-top:27px;
+}
+hr{
+	margin-top: 10px;
+}
+
+.span0{
+	background: #B22222;
+	color: white;
+	position: relative;
+	width: 15px;
+	height: 10px;
+	top: -29px;
+	left: 12px;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+#cointainer3{
+margin: 0 auto;
+display: flex;
+width: 1000px;
+flex-wrap:wrap;
+}
+
+.firts_phone{
+	width: 225px;
+	height:400px;
+	border: 1px solid black; 
+	margin-top:20px;
+	margin-left: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 2%;
+}
+
+.available{
+	text-align: center;
+}
+
+.text2{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+.price{
+	text-align: center;
+	color: #B22222;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.order{
+	width: 90%;
+	height: 35px;
+	margin-top: 10px;
+	background: #B22222;
+	color: white;
+	font-weight: 800;
+	margin-left: 10px;
+	
+}
+
+span{
+	color: red;
+}
+
+#cart{
+	display:none;
+	position:relative;
+	top:-800px; 
+	border-radius: 10px;
+	margin: auto;
+	width:80%;
+	height:100%;
+	background: white;border: 2px solid black;
+}
+
+.cart__title{
+	font-size:28px;
+	color:rgba(0,0,0,.4)
+}
+
+.cart__wrapper{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:35px;
+}
+
+.cart__wrapper .empty{
+	font-size:24px;
+	color:rgba(0,0,0,.4);
+}
+
+.cart__wrapper{
+	margin-right:75px;
+}
+
+.cart__close{
+	float:right; 
+	margin-right:10px; 
+	cursor:pointer;
+	color: red;
+}
+
+.cart__total{
+	font-size:18px;
+}
+
+.cart__total span{
+	color:#dc3e2a;
+}
+.cart__confirm{
+	width:280px;
+	height:40px;
+	display:block;
+	margin:0 auto;
+	background-color:#dc3e2a;
+	border:none;
+	outline:0;
+	margin-top:20px;
+	color:#fff;
+	font-weight:700;
+	cursor:pointer;
+}
+
+.cart__confirm:focus{
+	outline:0;
+}
+
+.cart__confirm:hover{
+	box-shadow:0 0 15px rgba(220,62,42,.7);
+}
+
+.confirm{
+	display:none;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	width:100px;
+	height:100px;
+}
+
+.confirm img{
+	width:100%;
+}
+
+
+.goods__item{
+	position:relative;
+	width:240px;
+	padding:10px;
+	box-shadow:4px 4px 30px rgba(0,0,0,.2);
+	border-radius:4px;
+	margin-bottom:40px;
+	margin-right:35px;
+	transition:.3s all;
+}
+
+.goods__item:hover{
+	box-shadow:4px 4px 40px rgba(0,0,0,.3);
+}
+
+.goods__item-remove{
+	position:relative;
+	top:-325px;
+	right:-215px;
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height:22px;
+	border:1px solid rgba(0,0,0,.1);
+	border-radius:100%;
+	background-color:#fff;
+	cursor:pointer}
+.goods__item-remove:hover{
+	color:#dc3e2a;
+}
+
+.confirm{
+	display:none;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	width:100px;
+	height:100px;
+}
+
+.confirm img{
+	width:100%;
+}
+
+@media only screen and (max-width: 725px){
+
+#cointainer{
+	margin-left: 10%;
+}	
+
+.four_block{
+	margin-top: 25px;
+	margin-left: -155px;
+}
+
+}
+
+@media only screen and (max-width: 560px){
+
+.third_block{
+	margin-top: 30px;
+	margin-left: -300px;
+}
+
+.four_block{
+margin-top: 55px;
+	margin-left: -160px;	
+}
+}
+
+@media only screen and (max-width: 1050px){
+#cointainer3{
+display: flex;
+width: 750px;
+flex-wrap:wrap;
+}
+
+#cart{
+	display:none;
+	position:relative;
+	top:-1220px; 
+	border-radius: 10px;
+	margin: auto;
+	width:80%;
+	height:100%;
+	background: white;border: 2px solid black;
+}
+
+}
+
+@media only screen and (max-width: 810px){
+#cointainer3{
+display: flex;
+width: 550px;
+flex-wrap:wrap;
+}
+
+#cart{
+	display:none;
+	position:relative;
+	top:-1642px; 
+	border-radius: 10px;
+	margin: auto;
+	width:80%;
+	height:100%;
+	background: white;border: 2px solid black;
+}
+
+}
+@media only screen and (max-width: 565px){
+#cointainer3{
+display: flex;
+width: 300px;
+flex-wrap:wrap;
+}
+
+#cart{
+	display:none;
+	position:relative;
+	top:-3900px; 
+	border-radius: 10px;
+	margin: auto;
+	width:80%;
+	height:100%;
+	background: white;border: 2px solid black;
+}
+#cointainer2, #cointainer3{
+	margin-left: 10%;
+}
+
+
+}
+
+
